@@ -9,6 +9,13 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
+    <!-- Favicons -->
+    <link href="{{ asset('KALATA-Logo-Officiel.png') }}" rel="icon">
+    <link href="{{ asset('assets/theme/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+    <!-- Vendor CSS Files -->
+    <link href="{{ asset('assets/theme/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/theme/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -76,5 +83,7 @@
             @yield('content')
         </main>
     </div>
+     <!-- Vendor JS Files -->
+     <script src="{{ asset('assets/theme/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 </body>
 </html>
