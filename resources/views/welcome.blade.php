@@ -53,7 +53,7 @@
         <ul>
             <li><a class="nav-link scrollto active" href="#hero">Accueil</a></li>
             <li><a class="nav-link scrollto" href="#testimonials">Temoingnages</a></li>
-            <li><a class="nav-link scrollto" href="#about">Demos</a></li>
+            <li><a class="nav-link scrollto" href="#">Demos</a></li>
             <li><a class="nav-link scrollto" href="#faq">FAQ</a></li>
             <li><a class="nav-link scrollto" href="#about">A propos</a></li>
             <li><a class="nav-link scrollto" href="#services">Services</a></li>
@@ -110,13 +110,14 @@
           <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <div class="content">
               <h3>Nous sommes</h3>
-              <h2>Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.</h2>
+              <h2>Une equipe de jeune developpeur issue du programme Tech4sahel.</h2>
               <p>
+                Nous avons l'ambition de digitaliser l'ensemble des processus des elections au Mali <br>
                 Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.
               </p>
               <div class="text-center text-lg-start">
                 <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
-                  <span>Read More</span>
+                  <span>Lire plus</span>
                   <i class="bi bi-arrow-right"></i>
                 </a>
               </div>
@@ -124,7 +125,7 @@
           </div>
 
           <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="{{ asset('assets/theme/img/about.jpg') }}" class="img-fluid" alt="">
+            <img src="{{ asset('assets/Img/IMG-20220324-WA0050.jpg') }}" class="img-fluid" alt="">
           </div>
 
         </div>
@@ -138,7 +139,7 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Our Values</h2>
+          <h2>Nos Valeurs</h2>
           <p>Odit est perspiciatis laborum et dicta</p>
         </header>
 
@@ -204,8 +205,8 @@
             <div class="count-box">
               <i class="bi bi-headset" style="color: #15be56;"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Hours Of Support</p>
+                <span data-purecounter-start="0" data-purecounter-end="102" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Fedbacks</p>
               </div>
             </div>
           </div>
@@ -214,8 +215,8 @@
             <div class="count-box">
               <i class="bi bi-people" style="color: #bb0852;"></i>
               <div>
-                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Users</p>
+                <span data-purecounter-start="0" data-purecounter-end="630" data-purecounter-duration="1" class="purecounter"></span>
+                <p>Utilisateurs</p>
               </div>
             </div>
           </div>
@@ -231,63 +232,77 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <h2>Services</h2>
-          <p>Veritatis et dolores facere numquam et praesentium</p>
+          <h2>Nos Services</h2>
+          <p>De l'assistance à la configuration
+            en passant par le service complet.
+            </p>
         </header>
 
         <div class="row gy-4">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-box blue">
               <i class="ri-discuss-line icon"></i>
-              <h3>Nesciunt Mete</h3>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <h3>Configuration du vote</h3>
+              <p>
+                Votre expert électoral terminera la configuration pour s'assurer que votre vote répond à vos besoins. Nous allons configurer les paramètres de vote, les bulletins de vote personnalisés et l'avis de calendrier ! Et si vous avez besoin de vous conformer à des règlements administratifs, des statuts ou des lois, nous travaillerons également avec votre conseiller juridique !
+              </p>
+              <a href="#" class="read-more"><span>Lire plus</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-box orange">
+              <i class="ri-discuss-line icon"></i>
+              <h3>Assistance dédiée</h3>
+              <p>
+                Votre expert électoral vous accompagne des exigences aux résultats. Vous vous rencontrerez en ligne pour examiner les besoins et tester. Pendant le vote, l'aide est un appel téléphonique pour des questions sur la gestion des électeurs ou des demandes de renseignements. Ou pour les réunions, votre expert assiste en utilisant la vidéo, ou dirige les votes.
+              </p>
+              <a href="#" class="read-more"><span>Lire plus</span> <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-box green">
+              <i class="ri-discuss-line icon"></i>
+              <h3>Communication des résultats</h3>
+              <p>
+                Votre expert électoral vous guide pour fournir rapidement des résultats observables et précis, ainsi que des conseils sur le partage des résultats avec vos électeurs. Et si votre vote nécessite un décompte personnalisé ou une attestation d'un tiers ou une autre aide à la déclaration, il vous suffit de demander !
+              </p>
+              <a href="#" class="read-more"><span>Lire plus</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-box orange">
+            <div class="service-box red">
               <i class="ri-discuss-line icon"></i>
-              <h3>Eosle Commodi</h3>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <h3>Services techniques</h3>
+              <p>
+                Nos experts vous conseillent sur les meilleures pratiques pour permettre à votre vote de se conformer aux normes de vote étatiques, provinciales ou fédérales et aux exigences spécifiques de l'industrie, et pour garantir que votre élection ou réunion est transparente, vérifiable et observable de manière indépendante. Ou demandez à nos experts tiers indépendants et impartiaux de surveiller le vote en direct à distance ou sur place.
+              </p>
+              <a href="#" class="read-more"><span>Lire plus</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-box green">
+            <div class="service-box purple">
               <i class="ri-discuss-line icon"></i>
-              <h3>Ledo Markt</h3>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <h3>Certification des résultats</h3>
+              <p>
+                Si votre vote nécessite une attestation pour respecter les statuts ou la législation de l'État, de la province ou du gouvernement fédéral, ou si vous avez besoin de faire examiner votre processus par des observateurs externes, nos experts travaillent avec votre équipe pour assurer la vérifiabilité et la conformité, ainsi que la délivrance d'un rapport de certification pour certifier le processus et les résultats du vote en tant que tiers indépendant.
+              </p>
+              <a href="#" class="read-more"><span>Lire plus</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-box red">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Asperiores Commodi</h3>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-box purple">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Velit Doloremque.</h3>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
             <div class="service-box pink">
               <i class="ri-discuss-line icon"></i>
-              <h3>Dolori Architecto</h3>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <h3>Expertise en intégration</h3>
+              <p>
+                Si vous avez des systèmes ou des processus qui font partie intégrante de la façon dont votre organisation vote, nos experts travaillent avec votre équipe technique sur des stratégies d'API pour partager les détails des électeurs, voter à partir de votre site Web ou de votre système de gestion des membres, ou mettre à jour les détails de l'engagement des électeurs. Ou faites également appel à notre équipe technologique pour développer et mettre en œuvre des processus !
+              </p>
+              <a href="#" class="read-more"><span>Lire plus</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
@@ -314,7 +329,7 @@
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
-                    Non consectetur a erat nam at lectus urna duis?
+                    L'utilisation de l'application est elle gratuite?
                   </button>
                 </h2>
                 <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
@@ -327,7 +342,7 @@
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
-                    Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                    Quelles sont les risques de corruption des donnees?
                   </button>
                 </h2>
                 <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
@@ -340,7 +355,7 @@
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
-                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+                    Quelles mesures à adopter pour la securite?
                   </button>
                 </h2>
                 <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist1">
@@ -361,7 +376,7 @@
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-1">
-                    Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                    Quelles les limites du systeme?
                   </button>
                 </h2>
                 <div id="faq2-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
@@ -374,7 +389,7 @@
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-2">
-                    Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                    Puis-je me faire assister par un expert ?
                   </button>
                 </h2>
                 <div id="faq2-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
@@ -387,7 +402,7 @@
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2-content-3">
-                    Varius vel pharetra vel turpis nunc eget lorem dolor?
+                    L'application est-elle disponible partout?
                   </button>
                 </h2>
                 <div id="faq2-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist2">
@@ -413,7 +428,7 @@
 
         <header class="section-header">
           <h2>Temoingnages</h2>
-          <p>Ce que pensent les futurs electeurs</p>
+          <p>Ce que pensent les futurs utilisateurs</p>
         </header>
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
@@ -429,8 +444,8 @@
                 </p>
                 <div class="profile mt-auto">
                   <img src="{{ asset('assets/theme/img/testimonials/testimonials-1.jpg')}}" class="testimonial-img" alt="">
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
+                  <h3>Modibo Keita</h3>
+                  <h4>Ceo &amp; Fondateur</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -445,8 +460,8 @@
                 </p>
                 <div class="profile mt-auto">
                   <img src="{{ asset('assets/theme/img/testimonials/testimonials-2.jpg')}}" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
+                  <h3>Sidy Lamine Diakite</h3>
+                  <h4>Charger Promotions</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -461,8 +476,8 @@
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/theme/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
+                  <h3>Fatoumata Konta</h3>
+                  <h4>Designer</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -477,8 +492,8 @@
                 </p>
                 <div class="profile mt-auto">
                   <img src="{{ asset('assets/theme/img/testimonials/testimonials-4.jpg')}}" class="testimonial-img" alt="">
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
+                  <h3>Aissata Diakite</h3>
+                  <h4>Developpeuse</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -493,8 +508,8 @@
                 </p>
                 <div class="profile mt-auto">
                   <img src="{{ asset('assets/theme/img/testimonials/testimonials-5.jpg')}}" class="testimonial-img" alt="">
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
+                  <h3>Amara Sissoko</h3>
+                  <h4>Expert Technicien Informatique</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -507,26 +522,26 @@
 
     </section><!-- End Testimonials Section -->
 
-    <!-- ======= Clients Section ======= -->
+    <!-- ======= sponsors Section ======= -->
     <section id="clients" class="clients">
 
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          {{-- <h2>Our Clients</h2> --}}
-          <p>Nos sponsors</p>
+          {{-- <h2>Our sponsors</h2> --}}
+          <p>Ils nous soutiennent</p>
         </header>
 
         <div class="clients-slider swiper">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="{{ asset('assets/Img/urn.jpg') }}" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="{{ asset('assets/Img/bulletin.jpg') }}" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="{{ asset('assets/Img/maliflag.png') }}" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="{{ asset('assets/Img/urne1.jpg') }}" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="{{ asset('assets/Img/urn.jpg') }}" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="{{ asset('assets/Img/urnoir.jpg') }}" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="{{ asset('assets/Img/voting.jpg') }}" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="{{ asset('assets/Img/votereed.jpg') }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ asset('assets/sponsor/cda_logo.jpg') }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ asset('assets/sponsor/ceni_mali.jpg') }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ asset('assets/sponsor/logo_gouv.jpg') }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ asset('assets/sponsor/makeSense_logo.png') }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ asset('assets/sponsor/orange_logo.png') }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ asset('assets/sponsor/yeleenMa_logo.jpg') }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ asset('assets/sponsor/logo_gouv.jpg') }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ asset('assets/sponsor/makeSense_logo.png') }}" class="img-fluid" alt=""></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
