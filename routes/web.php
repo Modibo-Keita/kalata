@@ -41,6 +41,10 @@ Route::get('/electeur', function () {
     return view('pages/electeur');
 })->name('electeur');
 
-Route::get('/bulletin', function () {
-    return view('pages/bulletin');
-})->name('bulletin');
+Route::get('/asso', function () {
+    return view('pages/asso');
+})->name('asso');
+
+Route::get('/voter', function () {
+    return view('pages/voter');
+})->name('voter');

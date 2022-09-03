@@ -4852,7 +4852,7 @@ input[type="button"].btn-block {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
-  
+
   .btn-group-vertical > .btn,
   .fc .btn-group-vertical > button,
   .ajax-upload-dragdrop .btn-group-vertical > .ajax-file-upload,
@@ -14844,16 +14844,16 @@ dl {
       .navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .form-control::-moz-placeholder, .navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-container--default .select2-selection--single::-moz-placeholder, .select2-container--default .navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-selection--single::-moz-placeholder, .navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-container--default .select2-selection--single .select2-search__field::-moz-placeholder, .select2-container--default .select2-selection--single .navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-search__field::-moz-placeholder, .navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .typeahead::-moz-placeholder,
       .navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .tt-query::-moz-placeholder,
       .navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .tt-hint::-moz-placeholder {
-        color: #000; }
+        color: #00263a; }
       .navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .form-control::-webkit-input-placeholder, .navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-container--default .select2-selection--single::-webkit-input-placeholder, .select2-container--default .navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-selection--single::-webkit-input-placeholder, .navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-container--default .select2-selection--single .select2-search__field::-webkit-input-placeholder, .select2-container--default .select2-selection--single .navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .select2-search__field::-webkit-input-placeholder, .navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .typeahead::-webkit-input-placeholder,
       .navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .tt-query::-webkit-input-placeholder,
       .navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .tt-hint::-webkit-input-placeholder {
-        color: #000; }
+        color: #00263a; }
       .navbar.navbar-light .navbar-menu-wrapper .navbar-nav .nav-item.nav-search .input-group .input-group-text {
-        color: #000; }
+        color: #00263a; }
     .navbar.navbar-light .navbar-menu-wrapper .navbar-toggler i:before {
       background: #f2f2f2;
-      color: #000; }
+      color: #00263a; }
   @media (max-width: 991px) {
     .navbar {
       left: 0;

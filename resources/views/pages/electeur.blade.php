@@ -3,83 +3,55 @@
 @section('content')
     <!-- content -->
     <div class="page-header flex-wrap">
-        <h3 class="mb-0"> Page de gestion des electeurs</h3>
+        <h3 class="mb-0">Election active
+        {{-- <span class="pl-0 h6 pl-sm-2 text-muted d-inline-block">C'est ici que tout se passera.</span> --}}
+        </h3>
         <div class="d-flex">
-            <button type="button" class="btn btn-sm ml-3 btn-success" data-bs-toggle="modal" data-bs-target="#modaltest" > Ajouter un electeur </button>
+        <button type="button" class="btn btn-sm bg-success btn-icon-text border ml-3 ">
+            <i class="mdi mdi-printer btn-icon-prepend"></i> Ajouter </button>
         </div>
-        {{-- start table --}}
-        <div class="row">
-            <div class="col-lg-12 grid-margin stretch-card">
+    </div>
+    {{-- start table --}}
+    <div class="row">
+        <div class="col-lg-12 grid-margin stretch-card">
             <div class="card">
                 <div class="card-body">
                 <h4 class="card-title">Liste des electeurs</h4>
-                <p class="card-description"> Cliquez sur le bouton ci-dessus pour ajouter de <code>.nouvelles eleteurs</code>
-                </p>
+                <p class="card-description"> Cliquez sur le bouton ci-dessus pour ajouter de nouvelles eleteurs</p>
                 <div class="table-responsive">
                     <table class="table table-bordered">
                     <thead>
                         <tr>
-                        <th>Profil</th>
+                        <th>N°</th>
+                        <th>Photo</th>
                         <th>Nom</th>
                         <th>Prenom</th>
-                        <th>Organisation</th>
+                        <th>Adresse</th>
                         <th>Email</th>
+                        <th>Asso</th>
+                        <th>MDP</th>
+                        <th>Action</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td class="py-1">
-                                <img src="{{asset('users/adja.jpg')}}" alt="image" />
-                            </td>
+                            <td>1</td>
+                            <td class="py-1"><img src="{{asset('users/adja.jpg')}}" alt="image" /></td>
                             <td>Coumare</td>
                             <td>Djeneba</td>
-                            <td>Simplon</td>
+                            <td>Ouenzzin</td>
                             <td>dcoumare99@gmail.com</td>
-                        </tr>
-                        <tr>
-                            <td class="py-1">
-                                <img src="{{asset('users/adja.jpg')}}" alt="image" />
-                            </td>
-                            <td>Coumare</td>
-                            <td>Djeneba</td>
-                            <td>Simplon</td>
-                            <td>dcoumare99@gmail.com</td>
-                        </tr>
-                        <tr>
-                            <td class="py-1">
-                                <img src="{{asset('users/adja.jpg')}}" alt="image" />
-                            </td>
-                            <td>Coumare</td>
-                            <td>Djeneba</td>
-                            <td>Simplon</td>
-                            <td>dcoumare99@gmail.com</td>
-                        </tr>
-                        <tr>
-                            <td class="py-1">
-                                <img src="{{asset('users/adja.jpg')}}" alt="image" />
-                            </td>
-                            <td>Coumare</td>
-                            <td>Djeneba</td>
-                            <td>Simplon</td>
-                            <td>dcoumare99@gmail.com</td>
-                        </tr>
-                        <tr>
-                            <td class="py-1">
-                                <img src="{{asset('users/adja.jpg')}}" alt="image" />
-                            </td>
-                            <td>Coumare</td>
-                            <td>Djeneba</td>
-                            <td>Simplon</td>
-                            <td>dcoumare99@gmail.com</td>
+                            <td>INTEC</td>
+                            <td>password</td>
+                            <td><span class="btn ">...</span></td>
                         </tr>
                     </tbody>
                     </table>
                 </div>
                 </div>
             </div>
-            </div>
         </div>
-        {{-- End table --}}
     </div>
+    {{-- End table --}}
     <!-- end content -->
 @endsection
