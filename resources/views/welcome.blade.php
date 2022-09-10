@@ -12,21 +12,21 @@
 
   <!-- Favicons -->
   <link href="{{ asset('KALATA-Logo-Officiel.png') }}" rel="icon">
-  <link href="{{ asset('assets/theme/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+  {{-- <link href="{{ asset('welcome/theme/img/apple-touch-icon.png') }}" rel="apple-touch-icon"> --}}
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="{{ asset('assets/theme/vendor/aos/aos.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/theme/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/theme/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/theme/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/theme/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/theme/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('welcome/theme/vendor/aos/aos.css') }}" rel="stylesheet">
+  <link href="{{ asset('welcome/theme/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('welcome/theme/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  <link href="{{ asset('welcome/theme/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('welcome/theme/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
+  <link href="{{ asset('welcome/theme/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="{{ asset('assets/theme/css/style.css') }}" rel="stylesheet">
+  <link href="{{ asset('welcome/theme/css/style.css') }}" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: FlexStart - v1.10.1
@@ -63,9 +63,9 @@
                     <li><a class="getstarted scrollto" href="{{ url('/home') }}">Home</a></li>
                     @else
                     <li><a class="getstarted scrollto bg-success" href="{{ route('login') }}">Se connecter</a></li>
-                    @if (Route::has('register'))
-                    <li><a class="getstarted scrollto bg-primary" href="{{ route('register') }}">S'incrire</a></li>
-                    @endif
+
+                    {{-- <li><a class="getstarted scrollto bg-primary" href="{{ route('register') }}">S'incrire</a></li> --}}
+                    
                 @endauth
             @endif
         </ul>
@@ -93,7 +93,7 @@
           </div>
         </div>
         <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <img src="{{ asset('assets/Img/vote.jpg')}}" class="img-fluid" alt="">
+          <img src="{{ asset('welcome/Img/vote.jpg')}}" class="img-fluid" alt="">
         </div>
       </div>
     </div>
@@ -125,7 +125,7 @@
           </div>
 
           <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-            <img src="{{ asset('assets/Img/IMG-20220324-WA0050.jpg') }}" class="img-fluid" alt="">
+            <img src="{{ asset('welcome/Img/IMG-20220324-WA0050.jpg') }}" class="img-fluid" alt="">
           </div>
 
         </div>
@@ -147,7 +147,7 @@
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="box">
-              <img src="{{ asset('assets/theme/img/values-1.png') }}" class="img-fluid" alt="">
+              <img src="{{ asset('welcome/theme/img/values-1.png') }}" class="img-fluid" alt="">
               <h3>Ad cupiditate sed est odio</h3>
               <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
             </div>
@@ -155,7 +155,7 @@
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
             <div class="box">
-              <img src="{{ asset('assets/theme/img/values-2.png') }}" class="img-fluid" alt="">
+              <img src="{{ asset('welcome/theme/img/values-2.png') }}" class="img-fluid" alt="">
               <h3>Voluptatem voluptatum alias</h3>
               <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
             </div>
@@ -163,7 +163,7 @@
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
             <div class="box">
-              <img src="{{ asset('assets/theme/img/values-3.png') }}" class="img-fluid" alt="">
+              <img src="{{ asset('welcome/theme/img/values-3.png') }}" class="img-fluid" alt="">
               <h3>Fugit cupiditate alias nobis.</h3>
               <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
             </div>
@@ -443,7 +443,7 @@
                   Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
                 </p>
                 <div class="profile mt-auto">
-                  <img src="{{ asset('assets/theme/img/testimonials/testimonials-1.jpg')}}" class="testimonial-img" alt="">
+                  <img src="{{ asset('welcome/theme/img/testimonials/testimonials-1.jpg')}}" class="testimonial-img" alt="">
                   <h3>Modibo Keita</h3>
                   <h4>Ceo &amp; Fondateur</h4>
                 </div>
@@ -459,7 +459,7 @@
                   Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
                 </p>
                 <div class="profile mt-auto">
-                  <img src="{{ asset('assets/theme/img/testimonials/testimonials-2.jpg')}}" class="testimonial-img" alt="">
+                  <img src="{{ asset('welcome/theme/img/testimonials/testimonials-2.jpg')}}" class="testimonial-img" alt="">
                   <h3>Sidy Lamine Diakite</h3>
                   <h4>Charger Promotions</h4>
                 </div>
@@ -475,7 +475,7 @@
                   Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
                 </p>
                 <div class="profile mt-auto">
-                  <img src="assets/theme/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                  <img src="welcome/theme/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                   <h3>Fatoumata Konta</h3>
                   <h4>Designer</h4>
                 </div>
@@ -491,7 +491,7 @@
                   Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
                 </p>
                 <div class="profile mt-auto">
-                  <img src="{{ asset('assets/theme/img/testimonials/testimonials-4.jpg')}}" class="testimonial-img" alt="">
+                  <img src="{{ asset('welcome/theme/img/testimonials/testimonials-4.jpg')}}" class="testimonial-img" alt="">
                   <h3>Aissata Diakite</h3>
                   <h4>Developpeuse</h4>
                 </div>
@@ -507,7 +507,7 @@
                   Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
                 </p>
                 <div class="profile mt-auto">
-                  <img src="{{ asset('assets/theme/img/testimonials/testimonials-5.jpg')}}" class="testimonial-img" alt="">
+                  <img src="{{ asset('welcome/theme/img/testimonials/testimonials-5.jpg')}}" class="testimonial-img" alt="">
                   <h3>Amara Sissoko</h3>
                   <h4>Expert Technicien Informatique</h4>
                 </div>
@@ -534,14 +534,14 @@
 
         <div class="clients-slider swiper">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="{{ asset('assets/sponsor/cda_logo.jpg') }}" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="{{ asset('assets/sponsor/ceni_mali.jpg') }}" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="{{ asset('assets/sponsor/logo_gouv.jpg') }}" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="{{ asset('assets/sponsor/makeSense_logo.png') }}" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="{{ asset('assets/sponsor/orange_logo.png') }}" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="{{ asset('assets/sponsor/yeleenMa_logo.jpg') }}" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="{{ asset('assets/sponsor/logo_gouv.jpg') }}" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="{{ asset('assets/sponsor/makeSense_logo.png') }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ asset('welcome/sponsor/cda_logo.jpg') }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ asset('welcome/sponsor/ceni_mali.jpg') }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ asset('welcome/sponsor/logo_gouv.jpg') }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ asset('welcome/sponsor/makeSense_logo.png') }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ asset('welcome/sponsor/orange_logo.png') }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ asset('welcome/sponsor/yeleenMa_logo.jpg') }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ asset('welcome/sponsor/logo_gouv.jpg') }}" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="{{ asset('welcome/sponsor/makeSense_logo.png') }}" class="img-fluid" alt=""></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -712,16 +712,16 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="{{ asset('assets/theme/vendor/purecounter/purecounter_vanilla.js') }}"></script>
-  <script src="{{ asset('assets/theme/vendor/aos/aos.js') }}"></script>
-  <script src="{{ asset('assets/theme/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-  <script src="{{ asset('assets/theme/vendor/glightbox/js/glightbox.min.js') }}"></script>
-  <script src="{{ asset('assets/theme/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
-  <script src="{{ asset('assets/theme/vendor/swiper/swiper-bundle.min.js') }}"></script>
-  <script src="{{ asset('assets/theme/vendor/php-email-form/validate.js') }}"></script>
+  <script src="{{ asset('welcome/theme/vendor/purecounter/purecounter_vanilla.js') }}"></script>
+  <script src="{{ asset('welcome/theme/vendor/aos/aos.js') }}"></script>
+  <script src="{{ asset('welcome/theme/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ asset('welcome/theme/vendor/glightbox/js/glightbox.min.js') }}"></script>
+  <script src="{{ asset('welcome/theme/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+  <script src="{{ asset('welcome/theme/vendor/swiper/swiper-bundle.min.js') }}"></script>
+  <script src="{{ asset('welcome/theme/vendor/php-email-form/validate.js') }}"></script>
 
   <!-- Template Main JS File -->
-  <script src="{{ asset('assets/theme/js/main.js') }}"></script>
+  <script src="{{ asset('welcome/theme/js/main.js') }}"></script>
 
 </body>
 

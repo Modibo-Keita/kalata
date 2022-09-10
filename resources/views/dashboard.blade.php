@@ -12,77 +12,88 @@
             </div>
             {{-- les cards --}}
             <div class="row">
-                <!-- Candidats inscris -->
-                <div class="col-xl-3 col-md-6 mb-4">
-                    <div class="card border-left-primary shadow h-100 py-2">
+                <div class="col-12">
+                    <div class="card bg-dark">
                         <div class="card-body">
-                            <div class="row no-gutters align-items-center">
-                                <div class="col mr-2">
-                                    <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                        Candidats inscris</div>
-                                    <div class="h5 mb-0 font-weight-bold text-gray-800">20</div>
+                            {{-- start card --}}
+                            <div class="row">
+                                <!-- Candidats inscris -->
+                                <div class="col-xl-3 col-md-6 mb-4">
+                                    <div class="card border-left-primary shadow h-100 py-2">
+                                        <div class="card-body">
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col mr-2">
+                                                    <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                        N° Candidats</div>
+                                                    <div class="h5 mb-0 font-weight-bold text-gray-800">20</div>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <i class="mdi mdi-account-box menu-icon text-gray-300"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-auto">
-                                    <i class="fas fa-calendar fa-2x text-gray-300"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- electeurs inscris -->
-                <div class="col-xl-3 col-md-6 mb-4">
-                    <div class="card border-left-success shadow h-100 py-2">
-                        <div class="card-body">
-                            <div class="row no-gutters align-items-center">
-                                <div class="col mr-2">
-                                    <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Electeurs Inscris</div>
-                                    <div class="h5 mb-0 font-weight-bold text-gray-800">215 000</div>
+                                <!-- electeurs inscris -->
+                                <div class="col-xl-3 col-md-6 mb-4">
+                                    <div class="card border-left-success shadow h-100 py-2">
+                                        <div class="card-body">
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col mr-2">
+                                                    <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Electeurs Inscris</div>
+                                                    <div class="h5 mb-0 font-weight-bold text-gray-800">215 000</div>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <i class="mdi mdi-account-multiple-plus text-gray-300"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-auto">
-                                    <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Votes exprimes -->
-                <div class="col-xl-3 col-md-6 mb-4">
-                    <div class="card border-left-primary shadow h-100 py-2">
-                        <div class="card-body">
-                            <div class="row no-gutters align-items-center">
-                                <div class="col mr-2">
-                                    <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                        Votes exprimes</div>
-                                    <div class="h5 mb-0 font-weight-bold text-gray-800">164 120</div>
+                                <!-- Votes exprimes -->
+                                <div class="col-xl-3 col-md-6 mb-4">
+                                    <div class="card border-left-primary shadow h-100 py-2">
+                                        <div class="card-body">
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col mr-2">
+                                                    <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                        Votes exprimes</div>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <img src="{{asset('mes_icones/voter.png')}}" alt="" class="img-xs">
+                                                    {{-- <i class="bi-file-earmark-person-fill text-gray-300"></i> --}}
+                                                </div>
+                                                <div class="h5 mb-0 font-weight-bold text-gray-800">164 120</div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-auto">
-                                    <i class="fas fa-calendar fa-2x text-gray-300"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Abstentions -->
-                <div class="col-xl-3 col-md-6 mb-4">
-                    <div class="card border-left-warning shadow h-100 py-2">
-                        <div class="card-body">
-                            <div class="row no-gutters align-items-center">
-                                <div class="col mr-2">
-                                    <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Abstentions</div>
-                                    <div class="h5 mb-0 font-weight-bold text-gray-800">78</div>
-                                </div>
-                                <div class="col-auto">
-                                    <i class="fas fa-comments fa-2x text-gray-300"></i>
+                                <!-- Abstentions -->
+                                <div class="col-xl-3 col-md-6 mb-4">
+                                    <div class="card border-left-warning shadow h-100 py-2">
+                                        <div class="card-body">
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col mr-2">
+                                                    <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Abstentions</div>
+                                                    <div class="h5 mb-0 font-weight-bold text-gray-800">78</div>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <i class="fas fa-comments fa-2x text-gray-300"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            {{-- cards end --}}
                         </div>
                     </div>
                 </div>
             </div>
-            {{-- cards end --}}
+
 
             <!-- 2ere rangee -->
             <div class="page-header">

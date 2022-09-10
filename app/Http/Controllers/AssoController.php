@@ -3,10 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Models\Asso;
-use App\Models\Candidat;
 use Illuminate\Http\Request;
 
-class CandidatController extends Controller
+
+
+class AssoController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,9 +16,8 @@ class CandidatController extends Controller
      */
     public function index()
     {
-        $assos = Asso::all();
-        $candidats = Candidat::orderBy("nom", "asc")->paginate(10);
-        return view('pages.candidat', compact('candidats', 'assos'));
+        $assos=Asso::orderBy('nom', 'asc')->paginate(10);
+        return view('pages.asso', compact("assos"));
     }
 
     /**
@@ -27,7 +27,8 @@ class CandidatController extends Controller
      */
     public function create()
     {
-        return view('pages.candidat');
+
+        return view("pages.asso");
     }
 
     /**
@@ -40,22 +41,21 @@ class CandidatController extends Controller
     {
         $request->validate([
             "nom"=>"required",
-            "prenom"=>"required",
+            "leader"=>"required",
             "adresse"=>"required",
-            "asso_id"=>"required",
         ]);
 
-        Candidat::create($request->all());
-        return back()->with("success", "Candidat enregistré avec succes");
+        Asso::create($request->all());
+        return back()->with("success", "Association creee avec succes");
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Candidat  $candidat
+     * @param  \App\Models\Asso  $asso
      * @return \Illuminate\Http\Response
      */
-    public function show(Candidat $candidat)
+    public function show(Asso $asso)
     {
         //
     }
@@ -63,46 +63,43 @@ class CandidatController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Candidat  $candidat
+     * @param  \App\Models\Asso  $asso
      * @return \Illuminate\Http\Response
      */
-    public function edit(Candidat $candidat)
+    public function edit(Asso $asso)
     {
-        $assos = Asso::all();
-        return view('pages.editions.editCandidat', compact('candidat', 'assos'));
+        return view('pages.editions.editAsso', compact('asso'));
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Candidat  $candidat
+     * @param  \App\Models\Asso  $asso
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Candidat $candidat)
+    public function update(Request $request, Asso $asso)
     {
         $request->all();
-        $candidat->update([
+        $asso->update([
             'nom'=>$request['nom'],
-            'prenom'=>$request['prenom'],
+            'leader'=>$request['leader'],
             'adresse'=>$request['adresse'],
-            'asso_id'=>$request['asso_id'],
         ]);
 
-        return redirect('candidat')->with("success", "Mise à jour du candidat reussie!");
+        return redirect('asso')->with("success", "Modification de l'association reussie!");
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Candidat  $candidat
+     * @param  \App\Models\Asso  $asso
      * @return \Illuminate\Http\Response
      */
-    public function delete(Candidat $candidat)
+    public function delete(Asso $asso)
     {
-        $fullname = $candidat->prenom.' '.$candidat->nom;
-        $candidat->delete();
-
-        return back()->with("successDelete", "Le candidat '$fullname' supprimé avec succes!.");
+        $assoName = $asso->nom;
+        $asso->delete();
+        return back()->with("successDelete", "L'association '$assoName' supprimer avec succes!.");
     }
 }
